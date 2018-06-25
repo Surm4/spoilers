@@ -1,4 +1,4 @@
 
 BLOCK DIRECT CONNECTION TO .php files
 
-add incognito detect
+export js from php files to /js/ 
