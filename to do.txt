@@ -1,0 +1,4 @@
+
+BLOCK DIRECT CONNECTION TO .php files
+
+add incognito detect
