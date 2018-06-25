@@ -1,4 +1,0 @@
-
-BLOCK DIRECT CONNECTION TO .php files
-
-export js from php files to /js/ 
