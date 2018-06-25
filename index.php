@@ -280,18 +280,21 @@ function	reportAdd(event) {
 	h_id = h_id.substring(4);
 
 
-	$.post("reportAdd.php",
+	$.post("reportadd.php",
 {
         heartid: h_id
 }, function(data) {
 	if (data==="Fine") {
 		$( "#rpt_"+h_id ).css("color","#f7281d");
+		
 	}
 	else if (data==="Exist") {
+		
 		return;
 	}
 	else {
 		window.location.href="error.php";
+		
 	}
 });
 
